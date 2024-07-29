@@ -1,0 +1,44 @@
+/* src/components/PetList.css */
+.pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .pet-item {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .pet-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .pet-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .pet-item .pet-info {
+    padding: 10px;
+  }
+  
+  .pet-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .pet-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  

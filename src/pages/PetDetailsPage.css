@@ -1,0 +1,86 @@
+/* src/pages/PetDetailsPage.css */
+
+/* Container for the pet details page */
+.pet-details-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the pet name */
+.pet-details-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Styles for the image slider */
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust based on your image size */
+  margin-bottom: 20px;
+}
+
+/* Styles for each image in the slider */
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styles for the pet details section */
+.pet-details {
+  font-family: Arial, sans-serif;
+}
+
+.pet-details p {
+  margin-bottom: 10px;
+}
+
+.pet-details p strong {
+  font-weight: bold;
+}
+
+/* Container for action buttons */
+.action-buttons {
+  margin-top: 20px;
+}
+
+/* Styles for action buttons */
+.action-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.action-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the 'Buy Now' button */
+.buy-now {
+  background-color: #28a745;
+}
+
+/* Hover effect for 'Buy Now' button */
+.buy-now:hover {
+  background-color: #218838;
+}
+
+/* Styles for the 'Add to Cart' button */
+.add-to-cart {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+/* Hover effect for 'Add to Cart' button */
+.add-to-cart:hover {
+  background-color: #e0a800;
+}
